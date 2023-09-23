@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const DB_URL = process.env.MONGO_URL  || "mongodb+srv://SanjeevY:Sanjeev123@tasks.m48scdr.mongodb.net/Books?retryWrites=true&w=majority";
+const DB_URL = process.env.MONGO_URL;
 
 const connectionDB = () => {
   mongoose
